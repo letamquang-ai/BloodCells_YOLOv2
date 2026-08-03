@@ -1,6 +1,6 @@
 # Blood Cells Detection (Tiny-YOLOv2)
 
-This project trains a Tiny-YOLO-VOC model (via `darkflow`) to detect blood cell types (e.g. RBC, WBC, Platelets) from microscope images.
+This project trains a Tiny-YOLOv2 model (via `darkflow`) to detect blood cell types (e.g. RBC, WBC, Platelets) from microscope images.
 
 ## Project Structure
 
