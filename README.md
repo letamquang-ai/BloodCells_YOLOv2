@@ -107,6 +107,7 @@ Review the resulting metrics (precision, recall, mAP) to assess model performanc
 │   └── tiny-yolo-voc-3c.cfg
 ├── bin/
 │   └── tiny-yolo-voc.weights
+├── weights/
 ├── dataset/
 │   ├── Training/
 │   │   ├── Images/
