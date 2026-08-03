@@ -2,6 +2,28 @@
 
 This project trains a Tiny-YOLO-VOC model (via `darkflow`) to detect blood cell types (e.g. RBC, WBC, Platelets) from microscope images.
 
+## Project Structure
+
+```
+.
+├── cfg/
+│   └── tiny-yolo-voc-3c.cfg
+├── bin/
+│   └── tiny-yolo-voc.weights
+├── weights/
+├── dataset/
+│   ├── Training/
+│   │   ├── Images/
+│   │   └── Annotations/
+│   └── Validation/
+│       ├── Images/
+│       └── Annotations/
+├── ckpt/
+├── losses.txt
+├── pre_losses.txt
+└── README.md
+```
+
 ## 1. Environment Setup
 
 Create and activate a dedicated conda environment with Python 3.7:
@@ -98,28 +120,6 @@ python flow --model cfg/tiny-yolo-voc-3c.cfg \
 ```
 
 Review the resulting metrics (precision, recall, mAP) to assess model performance.
-
-## Project Structure
-
-```
-.
-├── cfg/
-│   └── tiny-yolo-voc-3c.cfg
-├── bin/
-│   └── tiny-yolo-voc.weights
-├── weights/
-├── dataset/
-│   ├── Training/
-│   │   ├── Images/
-│   │   └── Annotations/
-│   └── Validation/
-│       ├── Images/
-│       └── Annotations/
-├── ckpt/
-├── losses.txt
-├── pre_losses.txt
-└── README.md
-```
 
 ## Requirements Summary
 
